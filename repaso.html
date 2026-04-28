@@ -1,10 +1,48 @@
 <!DOCTYPE html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <title>Menú de Ejercicios</title>
+    <link rel="stylesheet" href="repaso.css">
     <script src="repaso.js"></script>
 </head>
+
 <body>
-    <button onclick=";"> Ejercicio 1 </button>
+
+    <div class="container">
+
+        <h1>Panel de Ejercicios</h1>
+
+        <!-- SECCIÓN EJERCICIOS -->
+        <div class="section">
+            <h2>🔢 Ejercicios</h2>
+            <div class="buttons">
+                <button onclick="mostrar(1)">Ejercicio 1</button>
+                <button onclick="mostrar(2)">Ejercicio 2</button>
+                <button onclick="mostrar(3)">Ejercicio 3</button>
+            </div>
+        </div>
+
+        <!-- SECCIÓN MENSAJES -->
+        <div class="section">
+            <h2>📩 Mensajes</h2>
+            <div class="buttons">
+                <button onclick="mostrar(4)">Mensaje 1</button>
+                <button onclick="mostrar(5)">Mensaje 2</button>
+                <button onclick="mostrar(6)">Mensaje 3</button>
+                <button onclick="mostrar(7)">Mensaje 4</button>
+            </div>
+        </div>
+
+        <!-- SECCIÓN TABLA -->
+        <div class="section">
+            <h2>📊 Tabla de Multiplicar</h2>
+            <div class="buttons">
+                <button class="btn-primary" onclick="mostrar(8)">Mostrar tabla del 3</button>
+            </div>
+        </div>
+
+    </div>
 
 </body>
-
 </html>
